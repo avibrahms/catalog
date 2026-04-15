@@ -1,0 +1,30 @@
+id: action-card-cleanup-ce
+version: 0.1.0
+category: connection-engine
+description: Action Card Cleanup reconstructed as a protocol-native self-improvement
+  organ.
+entry:
+  type: python
+  command: entry.py
+  args: []
+triggers:
+- 'on': tick
+provides:
+- name: ce.action.card.cleanup
+  address: events:ce.action.card.cleanup.snapshot
+  description: Publishes Action Card Cleanup reconstruction snapshots.
+requires:
+- providers:
+  - bus
+  - memory
+  - discovery
+setpoints: {}
+hooks:
+  reconcile: reconcile.sh
+  doctor: doctor.sh
+limits:
+  max_runtime_seconds: 60
+  max_memory_mb: 128
+personas:
+- static
+- dynamic

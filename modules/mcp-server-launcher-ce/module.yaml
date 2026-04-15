@@ -1,0 +1,30 @@
+id: mcp-server-launcher-ce
+version: 0.1.0
+category: connection-engine
+description: Mcp Server Launcher reconstructed as a protocol-native self-improvement
+  organ.
+entry:
+  type: python
+  command: entry.py
+  args: []
+triggers:
+- 'on': tick
+provides:
+- name: ce.mcp.server.launcher
+  address: events:ce.mcp.server.launcher.snapshot
+  description: Publishes Mcp Server Launcher reconstruction snapshots.
+requires:
+- providers:
+  - bus
+  - memory
+  - discovery
+setpoints: {}
+hooks:
+  reconcile: reconcile.sh
+  doctor: doctor.sh
+limits:
+  max_runtime_seconds: 60
+  max_memory_mb: 128
+personas:
+- static
+- dynamic

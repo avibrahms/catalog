@@ -1,0 +1,29 @@
+id: eidetic-ce
+version: 0.1.0
+category: connection-engine
+description: Eidetic reconstructed as a protocol-native self-improvement organ.
+entry:
+  type: python
+  command: entry.py
+  args: []
+triggers:
+- 'on': tick
+provides:
+- name: ce.eidetic
+  address: events:ce.eidetic.snapshot
+  description: Publishes Eidetic reconstruction snapshots.
+requires:
+- providers:
+  - bus
+  - memory
+  - discovery
+setpoints: {}
+hooks:
+  reconcile: reconcile.sh
+  doctor: doctor.sh
+limits:
+  max_runtime_seconds: 60
+  max_memory_mb: 128
+personas:
+- static
+- dynamic

@@ -1,0 +1,29 @@
+id: system-zero-ce
+version: 0.1.0
+category: connection-engine
+description: System Zero reconstructed as a protocol-native self-improvement organ.
+entry:
+  type: python
+  command: entry.py
+  args: []
+triggers:
+- 'on': tick
+provides:
+- name: ce.system.zero
+  address: events:ce.system.zero.snapshot
+  description: Publishes System Zero reconstruction snapshots.
+requires:
+- providers:
+  - bus
+  - memory
+  - discovery
+setpoints: {}
+hooks:
+  reconcile: reconcile.sh
+  doctor: doctor.sh
+limits:
+  max_runtime_seconds: 60
+  max_memory_mb: 128
+personas:
+- static
+- dynamic

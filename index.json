@@ -2,6 +2,116 @@
   "version": "0.1.0",
   "items": [
     {
+      "id": "action-card-cleanup-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Action Card Cleanup reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.action.card.cleanup"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/action-card-cleanup-ce"
+      },
+      "readme": "# action-card-cleanup-ce\n\nAction Card Cleanup reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.action.card.cleanup.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install action-card-cleanup-ce\nsz doctor action-card-cleanup-ce\nsz tick --reason action-card-cleanup-ce-smoke\n```\n"
+    },
+    {
+      "id": "agent-dashboard-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Agent Dashboard reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.agent.dashboard"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/agent-dashboard-ce"
+      },
+      "readme": "# agent-dashboard-ce\n\nAgent Dashboard reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.agent.dashboard.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install agent-dashboard-ce\nsz doctor agent-dashboard-ce\nsz tick --reason agent-dashboard-ce-smoke\n```\n"
+    },
+    {
+      "id": "check-linkedin-autopost-policy-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Check Linkedin Autopost Policy reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.check.linkedin.autopost.policy"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/check-linkedin-autopost-policy-ce"
+      },
+      "readme": "# check-linkedin-autopost-policy-ce\n\nCheck Linkedin Autopost Policy reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.check.linkedin.autopost.policy.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install check-linkedin-autopost-policy-ce\nsz doctor check-linkedin-autopost-policy-ce\nsz tick --reason check-linkedin-autopost-policy-ce-smoke\n```\n"
+    },
+    {
+      "id": "chronicle-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Chronicle reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.chronicle"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/chronicle-ce"
+      },
+      "readme": "# chronicle-ce\n\nChronicle reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.chronicle.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install chronicle-ce\nsz doctor chronicle-ce\nsz tick --reason chronicle-ce-smoke\n```\n"
+    },
+    {
+      "id": "context-assembler-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Context Assembler reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.context.assembler"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/context-assembler-ce"
+      },
+      "readme": "# context-assembler-ce\n\nContext Assembler reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.context.assembler.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install context-assembler-ce\nsz doctor context-assembler-ce\nsz tick --reason context-assembler-ce-smoke\n```\n"
+    },
+    {
       "id": "dreaming",
       "version": "0.1.0",
       "category": "cognition",
@@ -39,6 +149,28 @@
         "path": "modules/dreaming"
       },
       "readme": "Dreaming reviews recent bus history during quiet periods and drafts structured hypotheses through the protocol's constrained LLM path. It is the repo's low-frequency ideation loop, gated by novelty and schema validation.\n"
+    },
+    {
+      "id": "eidetic-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Eidetic reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.eidetic"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/eidetic-ce"
+      },
+      "readme": "# eidetic-ce\n\nEidetic reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.eidetic.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install eidetic-ce\nsz doctor eidetic-ce\nsz tick --reason eidetic-ce-smoke\n```\n"
     },
     {
       "id": "endocrine",
@@ -162,6 +294,28 @@
       "readme": "Immune watches the repository's event stream for simple anomaly signals and emits normalized anomaly events. It gives downstream modules a shared first layer of passive health detection without coupling them to the host.\n"
     },
     {
+      "id": "mcp-server-launcher-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Mcp Server Launcher reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.mcp.server.launcher"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/mcp-server-launcher-ce"
+      },
+      "readme": "# mcp-server-launcher-ce\n\nMcp Server Launcher reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.mcp.server.launcher.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install mcp-server-launcher-ce\nsz doctor mcp-server-launcher-ce\nsz tick --reason mcp-server-launcher-ce-smoke\n```\n"
+    },
+    {
       "id": "metabolism",
       "version": "0.1.0",
       "category": "physiology",
@@ -238,6 +392,204 @@
       "readme": "Prediction reads recent bus history and emits the next likely event types. It gives other modules a simple forecast signal they can use to prepare before repeated patterns turn into failures.\n"
     },
     {
+      "id": "queue-gate-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Queue Gate reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.queue.gate"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/queue-gate-ce"
+      },
+      "readme": "# queue-gate-ce\n\nQueue Gate reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.queue.gate.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install queue-gate-ce\nsz doctor queue-gate-ce\nsz tick --reason queue-gate-ce-smoke\n```\n"
+    },
+    {
+      "id": "registry-validator-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Registry Validator reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.registry.validator"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/registry-validator-ce"
+      },
+      "readme": "# registry-validator-ce\n\nRegistry Validator reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.registry.validator.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install registry-validator-ce\nsz doctor registry-validator-ce\nsz tick --reason registry-validator-ce-smoke\n```\n"
+    },
+    {
+      "id": "rollback-email-verification-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Rollback Email Verification reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.rollback.email.verification"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/rollback-email-verification-ce"
+      },
+      "readme": "# rollback-email-verification-ce\n\nRollback Email Verification reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.rollback.email.verification.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install rollback-email-verification-ce\nsz doctor rollback-email-verification-ce\nsz tick --reason rollback-email-verification-ce-smoke\n```\n"
+    },
+    {
+      "id": "sentinel-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Sentinel reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.sentinel"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/sentinel-ce"
+      },
+      "readme": "# sentinel-ce\n\nSentinel reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.sentinel.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install sentinel-ce\nsz doctor sentinel-ce\nsz tick --reason sentinel-ce-smoke\n```\n"
+    },
+    {
+      "id": "session-bootstrap-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Session Bootstrap reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.session.bootstrap"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/session-bootstrap-ce"
+      },
+      "readme": "# session-bootstrap-ce\n\nSession Bootstrap reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.session.bootstrap.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install session-bootstrap-ce\nsz doctor session-bootstrap-ce\nsz tick --reason session-bootstrap-ce-smoke\n```\n"
+    },
+    {
+      "id": "skill-library-ce",
+      "version": "0.1.0",
+      "category": "connection-engine-skills",
+      "description": "Sanitized recursive-question skill library reconstructed as a protocol module.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.skill.library"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/skill-library-ce"
+      },
+      "readme": "# skill-library-ce\n\nSanitized recursive-question skill library reconstructed as a protocol module.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.skill.library.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install skill-library-ce\nsz doctor skill-library-ce\nsz tick --reason skill-library-ce-smoke\n```\n"
+    },
+    {
+      "id": "spec-dependency-graph-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Spec Dependency Graph reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.spec.dependency.graph"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/spec-dependency-graph-ce"
+      },
+      "readme": "# spec-dependency-graph-ce\n\nSpec Dependency Graph reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.spec.dependency.graph.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install spec-dependency-graph-ce\nsz doctor spec-dependency-graph-ce\nsz tick --reason spec-dependency-graph-ce-smoke\n```\n"
+    },
+    {
+      "id": "spec-lint-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Spec Lint reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.spec.lint"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/spec-lint-ce"
+      },
+      "readme": "# spec-lint-ce\n\nSpec Lint reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.spec.lint.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install spec-lint-ce\nsz doctor spec-lint-ce\nsz tick --reason spec-lint-ce-smoke\n```\n"
+    },
+    {
+      "id": "start-preamble-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "Start Preamble reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.start.preamble"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/start-preamble-ce"
+      },
+      "readme": "# start-preamble-ce\n\nStart Preamble reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.start.preamble.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install start-preamble-ce\nsz doctor start-preamble-ce\nsz tick --reason start-preamble-ce-smoke\n```\n"
+    },
+    {
       "id": "subconscious",
       "version": "0.1.0",
       "category": "cognition",
@@ -277,6 +629,28 @@
         "path": "modules/subconscious"
       },
       "readme": "Subconscious turns anomaly events into a compact health snapshot. It aggregates recent signals into green, amber, or red state so regulators and operators can react to repo health through one stable capability.\n"
+    },
+    {
+      "id": "system-zero-ce",
+      "version": "0.1.0",
+      "category": "connection-engine",
+      "description": "System Zero reconstructed as a protocol-native self-improvement organ.",
+      "personas": [
+        "static",
+        "dynamic"
+      ],
+      "provides": [
+        "ce.system.zero"
+      ],
+      "requires": [],
+      "setpoints": {},
+      "source": {
+        "type": "git",
+        "url": "https://github.com/avibrahms/system-zero.git",
+        "ref": "main",
+        "path": "modules/system-zero-ce"
+      },
+      "readme": "# system-zero-ce\n\nSystem Zero reconstructed as a protocol-native self-improvement organ.\n\n## Behavior\n\nOn every tick this module reads its sanitized reconstruction contract, observes the current System Zero registry, emits `ce.system.zero.snapshot`, and appends a record to the `ce.reconstruction` memory stream.\n\n## Source discipline\n\nThe original connection-engine source was reduced to anonymized behavior, metrics, and interface contracts. No private paths, operator identity, account data, product registry, or personal workflow content is shipped.\n\n## Install\n\n```bash\nsz install system-zero-ce\nsz doctor system-zero-ce\nsz tick --reason system-zero-ce-smoke\n```\n"
     }
   ]
 }
